@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+.container {
+  width: 700px;
+  border: 2px solid rgb(61, 94, 178);
+}
+h1 {
+  text-align: center;
+}
+form,
+#productTable {
+  padding: 10px 50px;
+}
+.form-group {
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 50px;
+}
+.form-group input {
+  height: 25px;
+}
+button {
+  width: 50px;
+  height: 30px;
+  background-color: #444e46;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+#productTable {
+  width: 600px;
+  text-align: left;
+  border-collapse: collapse;
+  margin-left: 50px;
+}
+#productTable thead {
+  background-color: black;
+  color: white;
+  height: 40px;
+}
+#productTable tr td:first-child {
+  padding-left: 10px;
+}
